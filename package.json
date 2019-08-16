@@ -1,0 +1,19 @@
+{
+  "name": "egghead-reasonml-variant-recursive-type",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "watch": "nodemon -w lib/js lib/js/src/App.bs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bs-platform": "^5.1.0",
+    "nodemon": "^1.19.1"
+  }
+}
