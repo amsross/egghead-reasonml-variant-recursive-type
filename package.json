@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prebuild": "npm run clean",
     "build": "bsb -make-world",
+    "prestart": "npm run clean",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "watch": "nodemon -w lib/js lib/js/src/App.bs.js"
+    "watch": "nodemon -q -w lib/js lib/js/src/App.bs.js"
   },
   "keywords": [],
   "author": "",
