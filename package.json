@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "bs-platform": "^5.1.0",
+    "bs-platform": "5.0.0",
     "nodemon": "^1.19.1"
   }
 }
