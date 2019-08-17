@@ -1,5 +1,5 @@
 SHELL = /bin/bash
-IMAGE_NAME?=egghead-reasonml-variant-recursive-type
+IMAGE_NAME?=amsross/egghead-reasonml-variant-recursive-type
 IMAGE_TAG?=latest
 
 .PHONY: build clean run
